@@ -1,0 +1,61 @@
+.nav__div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 54px;
+  width: 100vw;
+  background-color: whitesmoke;
+
+}
+.nav__Previousbutton{
+  border: none;
+  color: blue;
+  background-color: whitesmoke
+}
+.nav__nextbutton{
+  border: none;
+  color: blue;
+  background-color: whitesmoke;
+  margin-right: 8px;
+}
+.righticon{
+  margin-left: -9px;
+  margin-right: 12px;
+}
+.nav__spanleft{
+  margin-left: 10px;
+}
+.timezonediv{
+
+}
+.timezonediv__option{
+  width: 99vw;
+  border: 1px,solid whitesmoke;
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 44px;
+}
+
+.weekdiv {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  width: 4vw;
+  background-color: whitesmoke;
+  padding: 8px;
+}
+.notepad{
+  position: relative;
+  left: 120px;
+  display: flex;
+  flex-direction: row;
+  width: 980px;
+  flex-wrap: wrap;
+  top: -43px;
+} 
+.weekdiv .day-box:first-child,
+.weekdiv .day-box:last-child {
+  display: none;
+}
